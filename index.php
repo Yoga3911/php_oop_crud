@@ -7,7 +7,7 @@ $result = $film->getAll();
 if (isset($_POST["delete"])) {
     $film->delete();
 }
-
+# Test
 ?>
 
 <!DOCTYPE html>
@@ -66,8 +66,8 @@ if (isset($_POST["delete"])) {
                                 </svg>
                             </button>
                         </td>
-
                     </form>
+                    
                     <form action="" method="POST">
                         <input type="text" name="film_id" value="<?= $film["film_id"] ?>" hidden>
                         <td>

@@ -7,7 +7,7 @@ $result = $film->getAll();
 if (isset($_POST["delete"])) {
     $film->delete();
 }
-# Test
+# Test2
 ?>
 
 <!DOCTYPE html>
